@@ -24,7 +24,12 @@ const hElement = document.getElementById('start-point');
 /* Soy un H3 con el id start-point y la clase start, mi hermano mediano es un H2 con el id main-subtitle y las clases subtitle y subtitle--big, tiene el texto "Soy un subtitulo".
 
 Mi hermano mayor es un H1 con el id main-title y las clases titles y title--big, tiene el texto "Soy un título" 
+ 
+Mi padre es un HEADER con el id header y la clase header*/
 
-Mi padre es un HEADER con el id header y la clase header */
 
-console.log(`Soy ${hElement.tagName} con el id ${hElement.id} y la clase ${hElement.classList[0]}, mi hermano mediano es un  ${hElement.previousElementSibling.tagName} con el id ${hElement.previousElementSibling.id} y las clases ${hElement.previousElementSibling.classList[0]} y ${hElement.previousElementSibling.classList[1]}, tiene el texto "${hElement.previousElementSibling.textContent}". Mi hermano mayor es un ${hElement.previousElementSibling.previousElementSibling.tagName} con el id ${hElement.previousElementSibling.previousElementSibling.id} y las clases ${hElement.previousElementSibling.previousElementSibling.classList[0]} y ${hElement.previousElementSibling.previousElementSibling.classList[1]}, tiene el texto "${hElement.previousElementSibling.previousElementSibling.textContent}". Mi padre es un ${hElement.parentElement.tagName} con el id ${hElement.parentElement.id} y la clase ${hElement.parentElement.classList} `);
+
+
+
+
+console.log(`Soy ${hElement.tagName} con el id ${hElement.id} y la clase ${hElement.classList[0]}, mi hermano mediano es un  ${hElement.previousElementSibling.tagName} con el id ${hElement.previousElementSibling.id} y las clases ${hElement.previousElementSibling.classList[0]} y ${hElement.previousElementSibling.classList[1]}, tiene el texto "${hElement.previousElementSibling.textContent}". Mi hermano mayor es un ${hElement.previousElementSibling.previousElementSibling.tagName} con el id ${hElement.previousElementSibling.previousElementSibling.id} y las clases ${hElement.previousElementSibling.previousElementSibling.classList[0]} y ${hElement.previousElementSibling.previousElementSibling.classList[1]}, tiene el texto "${hElement.previousElementSibling.previousElementSibling.textContent}". Mi padre es un ${hElement.parentElement.tagName} con el id ${hElement.parentElement.id} y la clase ${hElement.parentElement.classList}. `);
