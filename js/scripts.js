@@ -28,8 +28,4 @@ Mi hermano mayor es un H1 con el id main-title y las clases titles y title--big,
 Mi padre es un HEADER con el id header y la clase header*/
 
 
-
-
-
-
 console.log(`Soy ${hElement.tagName} con el id ${hElement.id} y la clase ${hElement.classList[0]}, mi hermano mediano es un  ${hElement.previousElementSibling.tagName} con el id ${hElement.previousElementSibling.id} y las clases ${hElement.previousElementSibling.classList[0]} y ${hElement.previousElementSibling.classList[1]}, tiene el texto "${hElement.previousElementSibling.textContent}". Mi hermano mayor es un ${hElement.previousElementSibling.previousElementSibling.tagName} con el id ${hElement.previousElementSibling.previousElementSibling.id} y las clases ${hElement.previousElementSibling.previousElementSibling.classList[0]} y ${hElement.previousElementSibling.previousElementSibling.classList[1]}, tiene el texto "${hElement.previousElementSibling.previousElementSibling.textContent}". Mi padre es un ${hElement.parentElement.tagName} con el id ${hElement.parentElement.id} y la clase ${hElement.parentElement.classList}. `);
